@@ -1,4 +1,4 @@
-# Hi, I'm Abdullah Mahfouz 👋
+# Hi, I'm Abdullah 
 
 **Computer Science Student @ Trent University**
 *Peterborough, Ontario*
@@ -29,7 +29,41 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="60" alt="npm logo"  />
 </div>
+## 🎓 Education
 
+**Trent University**
+*Bachelor of Science in Computer Science* (Expected 2027)
+* **Relevant Coursework:** Systems Programming, Data Structures & Algorithms, Software Design & Modelling, Web Development I, Computer Organization, Calculus I.
+
+**Fleming College**
+*Diploma in Computer Engineering Technology*
+* **Focus:** Python Programming, Scripting & API Integration.
+
+---
+
+## 🛠️ Technical Skills
+
+* **Languages:** C#, C, Python, JavaScript, SQL, HTML, CSS
+* **Frontend:** React, Tailwind CSS, Vite, Radix UI
+* **Backend & Cloud:** Supabase, Clerk, REST APIs
+* **Tools:** Git, Unix/Linux environment
+* **Concepts:** Object-Oriented Programming, Memory Management, Data Structures (AVL/Splay Trees), Threading
+
+---
+
+## 🔭 Current Project
+
+**Job Portal Application**
+* A full-stack employment platform facilitating secure job discovery.
+* **Stack:** React, Supabase, Clerk, Tailwind CSS.
+* **Key Features:** Role-based access for Recruiters/Candidates and real-time data management.
+
+---
+
+## 🌍 Spoken Languages
+
+* **English:** Native/Fluent
+* **Arabic:** Native/Fluent
 ###
 
 <div align="center">
