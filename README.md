@@ -1,3 +1,13 @@
+# Hi, I'm Abdullah Mahfouz 👋
+
+**Computer Science Student @ Trent University**
+*Peterborough, Ontario*
+
+I am a passionate developer currently pursuing my Bachelor of Science in Computer Science. I bridge the gap between low-level systems engineering and modern front-end design.
+
+
+
+
 <h1 align="left"></h1>
 
 ###
