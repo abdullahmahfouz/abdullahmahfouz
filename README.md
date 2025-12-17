@@ -29,7 +29,9 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="60" alt="npm logo"  />
 </div>
-## 🎓 Education
+
+
+🎓 Education
 
 **Trent University**
 *Bachelor of Science in Computer Science* (Expected 2027)
