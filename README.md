@@ -3,10 +3,7 @@
 **Computer Science Student @ Trent University**
 *Peterborough, Ontario*
 
-I am a passionate developer currently pursuing my Bachelor of Science in Computer Science. I bridge the gap between low-level systems engineering and modern front-end design.
-
-
-
+I am a passionate developer currently pursuing my Bachelor of Science in Computer Science. 
 
 <h1 align="left"></h1>
 
@@ -38,7 +35,7 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 * **Relevant Coursework:** Systems Programming, Data Structures & Algorithms, Software Design & Modelling, Web Development I, Computer Organization, Calculus I.
 
 **Fleming College**
-*Diploma in Computer Engineering Technology*
+ Computer Engineering Technology*
 * **Focus:** Python Programming, Scripting & API Integration.
 
 ---
@@ -49,16 +46,12 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 * **Frontend:** React, Tailwind CSS, Vite, Radix UI
 * **Backend & Cloud:** Supabase, Clerk, REST APIs
 * **Tools:** Git, Unix/Linux environment
-* **Concepts:** Object-Oriented Programming, Memory Management, Data Structures (AVL/Splay Trees), Threading
 
 ---
 
 ## 🔭 Current Project
+* **A lightweight, custom command-line interface (CLI) built from scratch using C# and .NET.
 
-**Job Portal Application**
-* A full-stack employment platform facilitating secure job discovery.
-* **Stack:** React, Supabase, Clerk, Tailwind CSS.
-* **Key Features:** Role-based access for Recruiters/Candidates and real-time data management.
 
 ---
 
