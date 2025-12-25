@@ -50,7 +50,7 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 ---
 
 ## 🔭 Current Project
-* **A lightweight, custom command-line interface (CLI) built from scratch using C# and .NET.
+* A lightweight, custom command-line interface (CLI) built from scratch using C# and .NET.
 
 
 ---
