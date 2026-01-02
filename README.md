@@ -43,15 +43,14 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 ## 🛠️ Technical Skills
 
 * **Languages:** C#, C, Python, JavaScript, SQL, HTML, CSS
-* **Frontend:** React, Tailwind CSS, Vite, Radix UI
+* **Frontend:** React, Flask, CSS, Vite, Radix UI
 * **Backend & Cloud:** Supabase, Clerk, REST APIs
 * **Tools:** Git, Unix/Linux environment
 
 ---
 
 ## 🔭 Current Project
-* A lightweight, custom command-line interface (CLI) built from scratch using C# and .NET.
-
+* A DSA Visualizer
 
 ---
 
