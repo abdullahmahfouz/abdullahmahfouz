@@ -43,8 +43,8 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 ## 🛠️ Technical Skills
 
 * **Languages:** C#, C, Python, JavaScript, SQL, HTML, CSS
-* **Frontend:** React, Flask, CSS, Vite, Radix UI
-* **Backend & Cloud:** Supabase, Clerk, REST APIs
+* **Frontend:** React, , CSS, Vite, Radix UI
+* **Backend & Cloud:** Supabase, Clerk, REST APIs, Flask
 * **Tools:** Git, Unix/Linux environment
 
 ---
