@@ -28,7 +28,7 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 </div>
 
 
-🎓 Education
+ Education
 
 **Trent University**
 *Bachelor of Science in Computer Science* (Expected 2027)
@@ -40,7 +40,7 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 
 ---
 
-## 🛠️ Technical Skills
+##  Technical Skills
 
 * **Languages:** C#, C, Python, JavaScript, SQL, HTML, CSS
 * **Frontend:** React, , CSS, Vite, Radix UI
@@ -49,12 +49,12 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 
 ---
 
-## 🔭 Current Project
+##  Current Project
 * A DSA Visualizer
 
 ---
 
-## 🌍 Spoken Languages
+##  Spoken Languages
 
 * **English:** Native/Fluent
 * **Arabic:** Native/Fluent
