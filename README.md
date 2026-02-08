@@ -32,7 +32,7 @@ I am a passionate developer currently pursuing my Bachelor of Science in Compute
 
 **Trent University**
 *Bachelor of Science in Computer Science* (Expected 2027)
-* **Relevant Coursework:** Systems Programming, Data Structures & Algorithms, Software Design & Modelling, Web Development I, Computer Organization, Calculus I.
+* **Relevant Coursework:** Systems Programming, Data Structures & Algorithms, Software Design & Modelling, Web Development I, Computer Organization.
 
 **Fleming College**
  Computer Engineering Technology*
