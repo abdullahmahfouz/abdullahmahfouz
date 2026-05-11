@@ -57,7 +57,7 @@ Conversational AI agent that searches US property listings, compares neighbourho
 
 ---
 
-**Freelance — [Brendon Rodney](https://brendonrodney.com)**
+**Freelance — [Brendon Rodney](h[ttps://brendonrodney.com](https://brodney.ca/))**
 
 Portfolio site for Paris 2024 Olympic Gold Medalist (100m relay).
 
