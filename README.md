@@ -47,17 +47,17 @@ Interactive platform for learning data structures and algorithms through visual,
 
 ---
 
-**HomeAgent** — AI Real Estate Research Assistant
+**[HomeAgent](https://homeagent-deuf.onrender.com)**
 
 Conversational AI agent that searches US property listings, compares neighbourhoods, and builds a personalised shortlist through natural language.
 
 - Agentic architecture using Claude tool-use: intent parsing → multi-tool execution → synthesised recommendations
 - Integrates a US real estate listings API for live property data (price, beds, baths, location)
-- Built in Python with a CLI interface; showcased at Toronto Tech Week
+- Built with React and Python; deployed on Render
 
 ---
 
-**Freelance — [Brendon Rodney](h[ttps://brendonrodney.com](https://brodney.ca/))**
+**Freelance — [Brendon Rodney](https://brendonrodney.com)**
 
 Portfolio site for Paris 2024 Olympic Gold Medalist (100m relay).
 
