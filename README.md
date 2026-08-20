@@ -1,9 +1,11 @@
-# Hi, I'm Abdullah
-
-**Computer Science Student @ Trent University** · *Peterborough, Ontario*
-
-I am a developer pursuing my Bachelor of Science in Computer Science, focused on building full-stack applications and AI-powered tools.
-
+### Hi, I'm Abdullah 
+ 
+Computer Science Graduate @ Trent University · Peterborough / Toronto, Ontario
+ 
+I'm a full-stack developer focused on building agentic AI tools and end-to-end applications, from hand-rolled systems code to production-deployed web apps.
+ 
+[LinkedIn](https://linkedin.com/in/abdullah-mahfouz-5188b1306) · [Portfolio](https://abdullahmahfouz.github.io) · abdullahmahfouz@trentu.ca
+ 
 ---
 
 <div align="center">
@@ -26,63 +28,50 @@ I am a developer pursuing my Bachelor of Science in Computer Science, focused on
 
 ---
 
-## Education
-
-**Trent University** — *Bachelor of Science in Computer Science* (Expected 2027)
-- **Relevant Coursework:** Systems Programming, Data Structures & Algorithms, Software Architecture, Database Systems, Web Development, Project Management
-
-**Fleming College** — Computer Engineering Technology
-- **Focus:** Python Programming, Scripting & API Integration
-
+### Projects
+ 
+**[HomeAgent](https://homeagent-deuf.onrender.com/)** — Agentic Real Estate Assistant · [repo](https://github.com/abdullahmahfouz/homeagent)
+Conversational agent that automates end-to-end property search across 8 US states through natural language.
+- Hand-rolled a two-tool Gemini 2.5 Flash function-calling loop (listings search, mortgage calculation) with automatic function-calling disabled, run as both blocking and SSE-streaming variants
+- Built `guards.py`, a session-scoped rate limiter and daily/monthly token budget guard with disk-persisted state, plus strict CORS allowlisting and secret redaction
+- React, Python, FastAPI, Gemini API, Repliers MLS API, Mapbox
+**[Funniest Friend](https://github.com/abdullahmahfouz/Funniest-friend)** — Group Chat Humor Analyzer
+Ranks friends by comedic tapback engagement across an iMessage group chat.
+- Decoded iMessage's binary `chat.db` format in Python and computed a deterministic laugh score in JS from tapbacks, threaded replies, and reaction-y text, kept fully separate from an LLM layer that only narrates the funniest message
+- Built a privacy-first split deployment: real chat data never touches git, only a generated static leaderboard ships to Vercel, gated behind custom session-cookie auth for in-app browser compatibility
+- Next.js, React, Python, Gemini API, Vercel
+**[DSA Visualizer](https://dsa-visualizer-ksnl.onrender.com/)** — Interactive DS&A Platform · [repo](https://github.com/abdullahmahfouz/dsa-visualizer)
+Visualizes ~15 data structures and 30+ operations with a live time/space benchmarking engine.
+- Time-travel scrubber via immutable per-step snapshots; Gemini-powered study assistant with automated code review scoring across 6 languages
+- React, Flask, Gemini API
+**Mark-and-Sweep Garbage Collector** · [repo](https://github.com/abdullahmahfouz/mark-and-sweep-gc)
+Stack-based VM in C with a tagged-union object model.
+- Recursive DFS from stack roots reclaims 100% of unreachable heap memory, including circular references that defeat reference counting; dynamic heap growth doubles capacity each collection cycle
+- C
+**Custom CLI Shell** · [repo](https://github.com/abdullahmahfouz/custom-cli-shell)
+Unix-style shell with pipes, stream redirection, and 10+ builtins.
+- Hand-rolled tokenizer handling nested quoting and escape sequences across a modular 5-layer architecture; tab auto-completion via Longest Common Prefix
+- C#, .NET 9.0
+**Freelance — Brendon Rodney**
+Portfolio site for the Paris 2024 Olympic Gold Medalist (4x100m relay).
+- Zero-dependency, build-free static site achieving a 100/100 Lighthouse score across performance, accessibility, and SEO; deployed on GitHub Pages at $0/month
 ---
-
-## Projects
-
-**[DSA Visualizer](https://dsa-visualizer-ksnl.onrender.com)** · [repo](https://github.com/abdullahmahfouz/dsa-visualizer)
-
-Interactive platform for learning data structures and algorithms through visual, step-by-step animation — with AI-generated explanations powered by the Gemini API.
-
-- Built with React, Flask, and Python; deployed full-stack on Render
-- Covers trees, graphs, heaps, sorting algorithms, and more
-
+ 
+### Technical Skills
+ 
+- **Languages:** C, C#, Python, JavaScript, Java, SQL
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend:** Flask, FastAPI, .NET 9.0, REST APIs
+- **AI / Agents:** Gemini API, Claude API, tool-use / function calling
+- **Databases:** MySQL, Supabase, PostgreSQL
+- **Tools:** Git, GitHub, Linux/Unix, Vercel, Railway, Render
+### Spoken Languages
+- English: Fluent
+- Arabic: Native
 ---
-
-**[HomeAgent](https://homeagent-deuf.onrender.com)**
-
-Conversational AI agent that searches US property listings, compares neighbourhoods, and builds a personalised shortlist through natural language.
-
-- Agentic architecture using Claude tool-use: intent parsing → multi-tool execution → synthesised recommendations
-- Integrates a US real estate listings API for live property data (price, beds, baths, location)
-- Built with React and Python; deployed on Render
-
----
-
-**Freelance — [Brendon Rodney](https://brendonrodney.com)**
-
-Portfolio site for Paris 2024 Olympic Gold Medalist (100m relay).
-
-- Achieved a 100/100 Lighthouse score across performance, accessibility, and SEO
-
----
-
-## Technical Skills
-
-- **Languages:** C#, C, Python, JavaScript, SQL, HTML, CSS
-- **Frontend:** React, Vite, Radix UI, Tailwind CSS
-- **Backend & Cloud:** Flask, Supabase, Clerk, REST APIs
-- **AI / Agents:** Claude API, Gemini API, tool-use / function calling
-- **Databases:** MySQL, PostgreSQL
-- **Tools:** Git, Unix/Linux environment
-
----
-
-## Spoken Languages
-
-- **English:** Native/Fluent
-- **Arabic:** Native/Fluent
-
----
-
+ 
+*Currently job searching for SWE roles in Toronto — always open to connecting.*
+ 
 <div align="center">
   <a href="https://www.linkedin.com/in/abdullah-mahfouz-5188b1306/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
