@@ -35,23 +35,28 @@ Conversational agent that automates end-to-end property search across 8 US state
 - Hand-rolled a two-tool Gemini 2.5 Flash function-calling loop (listings search, mortgage calculation) with automatic function-calling disabled, run as both blocking and SSE-streaming variants
 - Built `guards.py`, a session-scoped rate limiter and daily/monthly token budget guard with disk-persisted state, plus strict CORS allowlisting and secret redaction
 - React, Python, FastAPI, Gemini API, Repliers MLS API, Mapbox
+
 **[Funniest Friend](https://github.com/abdullahmahfouz/Funniest-friend)** — Group Chat Humor Analyzer
 Ranks friends by comedic tapback engagement across an iMessage group chat.
 - Decoded iMessage's binary `chat.db` format in Python and computed a deterministic laugh score in JS from tapbacks, threaded replies, and reaction-y text, kept fully separate from an LLM layer that only narrates the funniest message
 - Built a privacy-first split deployment: real chat data never touches git, only a generated static leaderboard ships to Vercel, gated behind custom session-cookie auth for in-app browser compatibility
 - Next.js, React, Python, Gemini API, Vercel
+
 **[DSA Visualizer](https://dsa-visualizer-ksnl.onrender.com/)** — Interactive DS&A Platform · [repo](https://github.com/abdullahmahfouz/dsa-visualizer)
 Visualizes ~15 data structures and 30+ operations with a live time/space benchmarking engine.
 - Time-travel scrubber via immutable per-step snapshots; Gemini-powered study assistant with automated code review scoring across 6 languages
 - React, Flask, Gemini API
+
 **Mark-and-Sweep Garbage Collector** · [repo](https://github.com/abdullahmahfouz/mark-and-sweep-gc)
 Stack-based VM in C with a tagged-union object model.
 - Recursive DFS from stack roots reclaims 100% of unreachable heap memory, including circular references that defeat reference counting; dynamic heap growth doubles capacity each collection cycle
 - C
+
 **Custom CLI Shell** · [repo](https://github.com/abdullahmahfouz/custom-cli-shell)
 Unix-style shell with pipes, stream redirection, and 10+ builtins.
 - Hand-rolled tokenizer handling nested quoting and escape sequences across a modular 5-layer architecture; tab auto-completion via Longest Common Prefix
 - C#, .NET 9.0
+
 **Freelance — Brendon Rodney**
 Portfolio site for the Paris 2024 Olympic Gold Medalist (4x100m relay).
 - Zero-dependency, build-free static site achieving a 100/100 Lighthouse score across performance, accessibility, and SEO; deployed on GitHub Pages at $0/month
