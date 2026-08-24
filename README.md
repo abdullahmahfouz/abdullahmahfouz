@@ -29,6 +29,13 @@ I'm a full-stack developer focused on building agentic AI tools and end-to-end a
 ---
 
 ### Projects
+
+**[NeoWatch](https://main.d2m0an0vcg1iwk.amplifyapp.com/)** — Near-Earth Object Tracking Dashboard · [repo](https://github.com/abdullahmahfouz/Neo-Watch)
+Live 3D dashboard tracking near-Earth objects from NASA's public feed, with impact-energy trends and hazard alerts.
+- Daily scheduled ingest of NASA's NeoWs feed into PostgreSQL, computing kinetic-impact-energy estimates (E = ½mv²) snapshotted on every run to build a trend rather than a single number, returning `null` instead of a fabricated value when source data is missing or invalid
+- Built a real 3D Earth in Three.js with NASA texture maps and a custom day-night terminator shader, rendering tracked objects as orbiting bodies positioned from their actual miss distance and velocity
+- Redis-cached read endpoints with cache invalidation tied to ingest, plus CORS lockdown, per-IP rate limiting, and a shared-secret gate on the ingest endpoint
+- Java, Spring Boot, PostgreSQL, Redis, React, Three.js, Tailwind CSS
  
 **[HomeAgent](https://homeagent-deuf.onrender.com/)** — Agentic Real Estate Assistant · [repo](https://github.com/abdullahmahfouz/homeagent)
 Conversational agent that automates end-to-end property search across 8 US states through natural language.
