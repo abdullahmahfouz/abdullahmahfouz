@@ -2,7 +2,7 @@
  
 Computer Science Graduate @ Trent University · Peterborough / Toronto, Ontario
  
-I'm a full-stack developer focused on building agentic AI tools and end-to-end applications, from hand-rolled systems code to production-deployed web apps.
+
  
 [LinkedIn](https://linkedin.com/in/abdullah-mahfouz-5188b1306) · [Portfolio](https://abdullahmahfouz.github.io) · abdullahmahfouz@trentu.ca
  
