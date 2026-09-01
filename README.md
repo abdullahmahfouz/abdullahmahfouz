@@ -54,7 +54,7 @@ Visualizes ~15 data structures and 30+ operations with a live time/space benchma
 - Time-travel scrubber via immutable per-step snapshots; Gemini-powered study assistant with automated code review scoring across 6 languages
 - React, Flask, Gemini API
 
-**Mark-and-Sweep Garbage Collector** · [repo](https://github.com/abdullahmahfouz/mark-and-sweep-gc)
+**Mark-and-Sweep Garbage Collector** · [repo]([https://github.com/abdullahmahfouz/mark-and-sweep-gc](https://github.com/abdullahmahfouz/Mark-Sweep)
 Stack-based VM in C with a tagged-union object model.
 - Recursive DFS from stack roots reclaims 100% of unreachable heap memory, including circular references that defeat reference counting; dynamic heap growth doubles capacity each collection cycle
 - C
