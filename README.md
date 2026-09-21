@@ -30,6 +30,13 @@ Computer Science Graduate @ Trent University · Peterborough / Toronto, Ontario
 
 ### Projects
 
+**Telematics Ingestion & Driver Safety Analytics Pipeline** · [repo](https://github.com/abdullahmahfouz/Telematics-Ingestion-Driver-Safety-Analytics-Pipeline)
+Real-time ingestion and driver-safety analytics pipeline for a fleet of vehicles, from raw accelerometer streams to a live dashboard.
+- Rule-based engine flags harsh braking, cornering, and acceleration from live accelerometer streams; events persist to PostgreSQL and roll up into a Redis-backed leaderboard that degrades gracefully instead of blocking ingestion when Redis is down
+- Two-tier auth mirrors how a real fleet platform separates concerns: per-device API keys (hashed, one per device) gate ingestion, while dashboard operators get short-lived JWTs that a separate Python AI service validates and forwards into its own API calls rather than using a blanket service credential
+- Gemini-powered safety assistant answers natural-language questions about a device's driving data via tool-calling; a C# trip simulator replays scripted harsh-event phases for realistic demo data
+- .NET 9, PostgreSQL, Redis, FastAPI, Gemini API, React, TypeScript, Mapbox
+
 **[NeoWatch](https://main.d2m0an0vcg1iwk.amplifyapp.com/)** — Near-Earth Object Tracking Dashboard · [repo](https://github.com/abdullahmahfouz/Neo-Watch)
 Live 3D dashboard tracking near-Earth objects from NASA's public feed, with impact-energy trends and hazard alerts.
 - Daily scheduled ingest of NASA's NeoWs feed into PostgreSQL, computing kinetic-impact-energy estimates (E = ½mv²) snapshotted on every run to build a trend rather than a single number, returning `null` instead of a fabricated value when source data is missing or invalid
