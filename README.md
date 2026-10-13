@@ -30,6 +30,8 @@ Click any screenshot to open the live app.
 
 ### Telematics Pipeline: driver safety analytics
 
+[<img src="assets/shot-telematics.png" alt="Telematics driver safety dashboard" width="100%">](https://github.com/abdullahmahfouz/Telematics-Ingestion-Driver-Safety-Analytics-Pipeline)
+
 ![.NET](https://img.shields.io/badge/.NET_9-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
