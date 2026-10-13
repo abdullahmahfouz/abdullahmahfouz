@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Abdullah Mahfouz - Agentic AI, full-stack apps, systems programming" width="100%">
+<img src="assets/banner.png" alt="Abdullah Mahfouz" width="100%">
 
 <br>
 
@@ -8,7 +8,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=githubpages&logoColor=white)](https://abdullahmahfouz.github.io)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahmahfouz@trentu.ca)
 
-[**Featured projects**](#featured-projects) &nbsp;|&nbsp; [**Systems**](#systems-programming) &nbsp;|&nbsp; [**Open source**](#open-source-and-client-work) &nbsp;|&nbsp; [**Stack**](#tech-stack) &nbsp;|&nbsp; [**Contact**](#contact)
+[**Featured projects**](#featured-projects) &nbsp;|&nbsp; [**Systems**](#systems-programming) &nbsp;|&nbsp; [**Client work**](#client-work) &nbsp;|&nbsp; [**Stack**](#tech-stack) &nbsp;|&nbsp; [**Contact**](#contact)
 
 </div>
 
@@ -21,7 +21,7 @@ Computer Science graduate from Trent University, based in Peterborough and Toron
 | | |
 |---|---|
 | **Strong at** | Agentic AI (tool calling), full-stack apps, systems programming |
-| **Shipped** | 3 live deployed apps, a merged open-source security fix, a 100/100 Lighthouse client site |
+| **Shipped** | 3 live deployed apps, a 100/100 Lighthouse client site |
 | **Daily drivers** | Python, JavaScript/React, Java/Spring Boot, C#, C |
 
 ---
@@ -49,7 +49,7 @@ Real-time ingestion and driver-safety analytics for a vehicle fleet, from raw ac
 
 ### NeoWatch: near-Earth object tracker
 
-[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://main.d2m0an0vcg1iwk.amplifyapp.com/" alt="NeoWatch live dashboard" width="100%">](https://main.d2m0an0vcg1iwk.amplifyapp.com/)
+[<img src="assets/shot-neowatch.png" alt="NeoWatch live dashboard" width="100%">](https://main.d2m0an0vcg1iwk.amplifyapp.com/)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -66,7 +66,7 @@ Live 3D dashboard of near-Earth objects from NASA's public feed, with impact-ene
 
 ### HomeAgent: agentic real estate assistant
 
-[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://homeagent-deuf.onrender.com/" alt="HomeAgent live app" width="100%">](https://homeagent-deuf.onrender.com/)
+[<img src="assets/shot-homeagent.png" alt="HomeAgent live app" width="100%">](https://homeagent-deuf.onrender.com/)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -80,7 +80,7 @@ Ask for properties in plain English across 8 US states; the agent searches listi
 
 ### DSA Visualizer: interactive data-structures platform
 
-[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://dsa-visualizer-ksnl.onrender.com/" alt="DSA Visualizer live app" width="100%">](https://dsa-visualizer-ksnl.onrender.com/)
+[<img src="assets/shot-dsa.png" alt="DSA Visualizer live app" width="100%">](https://dsa-visualizer-ksnl.onrender.com/)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -121,9 +121,8 @@ Unix-style shell in C# with pipes, redirection, 10+ builtins, a hand-rolled toke
 
 ---
 
-## Open source and client work
+## Client work
 
-- **[rysweet/amplihack](https://github.com/rysweet/amplihack)**: authored a merged security PR fixing a shell injection vulnerability
 - **Brendon Rodney**: portfolio site for the Paris 2024 Olympic gold medalist (4x100m relay). Zero-dependency static site, 100/100 Lighthouse, $0/month hosting.
 
 ---
@@ -163,7 +162,7 @@ Unix-style shell in C# with pipes, redirection, 10+ builtins, a hand-rolled toke
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=abdullahmahfouz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=abdullahmahfouz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true)
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahmahfouz&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
