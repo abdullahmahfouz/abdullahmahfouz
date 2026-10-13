@@ -86,12 +86,6 @@ Ask for properties in plain English across 8 US states; the agent searches listi
 
 About 15 data structures, 30+ operations, live time/space benchmarking, and a time-travel step scrubber. [**View code**](https://github.com/abdullahmahfouz/dsa-visualizer)
 
-### Funniest Friend: group chat humor analyzer
-
-[<img src="assets/card-funniest.png" alt="Funniest Friend overview" width="100%">](https://github.com/abdullahmahfouz/Funniest-friend)
-
-Decodes iMessage's binary `chat.db` and ranks friends by comedic engagement. Privacy-first: private data never touches git. [**View code**](https://github.com/abdullahmahfouz/Funniest-friend)
-
 ---
 
 ## Systems programming
