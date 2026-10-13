@@ -1,100 +1,175 @@
-### Hi, I'm Abdullah 
- 
-Computer Science Graduate @ Trent University · Peterborough / Toronto, Ontario
- 
-
- 
-[LinkedIn](https://linkedin.com/in/abdullah-mahfouz-5188b1306) · [Portfolio](https://abdullahmahfouz.github.io) · abdullahmahfouz@trentu.ca
- 
----
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="csharp logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="60" alt="git logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="html5 logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="60" alt="npm logo" />
+
+<img src="assets/banner.png" alt="Abdullah Mahfouz - Agentic AI, full-stack apps, systems programming" width="100%">
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-mahfouz-5188b1306/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=githubpages&logoColor=white)](https://abdullahmahfouz.github.io)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahmahfouz@trentu.ca)
+
+[**Featured projects**](#featured-projects) &nbsp;|&nbsp; [**Systems**](#systems-programming) &nbsp;|&nbsp; [**Open source**](#open-source-and-client-work) &nbsp;|&nbsp; [**Stack**](#tech-stack) &nbsp;|&nbsp; [**Contact**](#contact)
+
 </div>
 
 ---
 
-### Projects
+## About
 
-**Telematics Ingestion & Driver Safety Analytics Pipeline** · [repo](https://github.com/abdullahmahfouz/Telematics-Ingestion-Driver-Safety-Analytics-Pipeline)
-Real-time ingestion and driver-safety analytics pipeline for a fleet of vehicles, from raw accelerometer streams to a live dashboard.
-- Rule-based engine flags harsh braking, cornering, and acceleration from live accelerometer streams; events persist to PostgreSQL and roll up into a Redis-backed leaderboard that degrades gracefully instead of blocking ingestion when Redis is down
-- Two-tier auth mirrors how a real fleet platform separates concerns: per-device API keys (hashed, one per device) gate ingestion, while dashboard operators get short-lived JWTs that a separate Python AI service validates and forwards into its own API calls rather than using a blanket service credential
-- Gemini-powered safety assistant answers natural-language questions about a device's driving data via tool-calling; a C# trip simulator replays scripted harsh-event phases for realistic demo data
-- .NET 9, PostgreSQL, Redis, FastAPI, Gemini API, React, TypeScript, Mapbox
+Computer Science graduate from Trent University, based in Peterborough and Toronto. I build agentic AI tools and end-to-end applications, from hand-rolled systems code to production web apps. **Currently open to opportunities in Toronto.**
 
-**[NeoWatch](https://main.d2m0an0vcg1iwk.amplifyapp.com/)** — Near-Earth Object Tracking Dashboard · [repo](https://github.com/abdullahmahfouz/Neo-Watch)
-Live 3D dashboard tracking near-Earth objects from NASA's public feed, with impact-energy trends and hazard alerts.
-- Daily scheduled ingest of NASA's NeoWs feed into PostgreSQL, computing kinetic-impact-energy estimates (E = ½mv²) snapshotted on every run to build a trend rather than a single number, returning `null` instead of a fabricated value when source data is missing or invalid
-- Built a real 3D Earth in Three.js with NASA texture maps and a custom day-night terminator shader, rendering tracked objects as orbiting bodies positioned from their actual miss distance and velocity
-- Redis-cached read endpoints with cache invalidation tied to ingest, plus CORS lockdown, per-IP rate limiting, and a shared-secret gate on the ingest endpoint
-- Java, Spring Boot, PostgreSQL, Redis, React, Three.js, Tailwind CSS
- 
-**[HomeAgent](https://homeagent-deuf.onrender.com/)** — Agentic Real Estate Assistant · [repo](https://github.com/abdullahmahfouz/homeagent)
-Conversational agent that automates end-to-end property search across 8 US states through natural language.
-- Hand-rolled a two-tool Gemini 2.5 Flash function-calling loop (listings search, mortgage calculation) with automatic function-calling disabled, run as both blocking and SSE-streaming variants
-- Built `guards.py`, a session-scoped rate limiter and daily/monthly token budget guard with disk-persisted state, plus strict CORS allowlisting and secret redaction
-- React, Python, FastAPI, Gemini API, Repliers MLS API, Mapbox
+| | |
+|---|---|
+| **Strong at** | Agentic AI (tool calling), full-stack apps, systems programming |
+| **Shipped** | 3 live deployed apps, a merged open-source security fix, a 100/100 Lighthouse client site |
+| **Daily drivers** | Python, JavaScript/React, Java/Spring Boot, C#, C |
 
-**[Funniest Friend](https://github.com/abdullahmahfouz/Funniest-friend)** — Group Chat Humor Analyzer
-Ranks friends by comedic tapback engagement across an iMessage group chat.
-- Decoded iMessage's binary `chat.db` format in Python and computed a deterministic laugh score in JS from tapbacks, threaded replies, and reaction-y text, kept fully separate from an LLM layer that only narrates the funniest message
-- Built a privacy-first split deployment: real chat data never touches git, only a generated static leaderboard ships to Vercel, gated behind custom session-cookie auth for in-app browser compatibility
-- Next.js, React, Python, Gemini API, Vercel
-
-**[DSA Visualizer](https://dsa-visualizer-ksnl.onrender.com/)** — Interactive DS&A Platform · [repo](https://github.com/abdullahmahfouz/dsa-visualizer)
-Visualizes ~15 data structures and 30+ operations with a live time/space benchmarking engine.
-- Time-travel scrubber via immutable per-step snapshots; Gemini-powered study assistant with automated code review scoring across 6 languages
-- React, Flask, Gemini API
-
-**Mark-and-Sweep Garbage Collector** · [repo](https://github.com/abdullahmahfouz/Mark-Sweep)
-Stack-based VM in C with a tagged-union object model.
-- Recursive DFS from stack roots reclaims 100% of unreachable heap memory, including circular references that defeat reference counting; dynamic heap growth doubles capacity each collection cycle
-- C
-
-**Custom CLI Shell** · [repo]([https://github.com/abdullahmahfouz/custom-cli-shell](https://github.com/abdullahmahfouz/Shell))
-Unix-style shell with pipes, stream redirection, and 10+ builtins.
-- Hand-rolled tokenizer handling nested quoting and escape sequences across a modular 5-layer architecture; tab auto-completion via Longest Common Prefix
-- C#, .NET 9.0
-
-**Freelance — Brendon Rodney**
-Portfolio site for the Paris 2024 Olympic Gold Medalist (4x100m relay).
-- Zero-dependency, build-free static site achieving a 100/100 Lighthouse score across performance, accessibility, and SEO; deployed on GitHub Pages at $0/month
 ---
- 
-### Technical Skills
- 
-- **Languages:** C, C#, Python, JavaScript, Java, SQL
-- **Frontend:** React, Next.js, Tailwind CSS
-- **Backend:** Flask, FastAPI, .NET 9.0, REST APIs
-- **AI / Agents:** Gemini API, Claude API, tool-use / function calling
-- **Databases:** MySQL, Supabase, PostgreSQL
-- **Tools:** Git, GitHub, Linux/Unix, Vercel, Railway, Render
-### Spoken Languages
-- English: Fluent
-- Arabic: Native
+
+## Featured projects
+
+Click any screenshot to open the live app.
+
+### Telematics Pipeline: driver safety analytics
+
+![.NET](https://img.shields.io/badge/.NET_9-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white)
+
+Real-time ingestion and driver-safety analytics for a vehicle fleet, from raw accelerometer streams to a live dashboard. [**View code**](https://github.com/abdullahmahfouz/Telematics-Ingestion-Driver-Safety-Analytics-Pipeline)
+
+- Rule-based engine flags harsh braking, cornering, and acceleration; events persist to PostgreSQL and roll up into a Redis leaderboard that degrades gracefully when Redis is down
+- Two-tier auth: hashed per-device API keys gate ingestion, while operators get short-lived JWTs that the Python AI service validates and forwards instead of using a blanket service credential
+- Gemini safety assistant answers plain-English questions about a device's driving data via tool calling; a C# trip simulator replays scripted harsh events for demo data
+
+### NeoWatch: near-Earth object tracker
+
+[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://main.d2m0an0vcg1iwk.amplifyapp.com/" alt="NeoWatch live dashboard" width="100%">](https://main.d2m0an0vcg1iwk.amplifyapp.com/)
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+
+Live 3D dashboard of near-Earth objects from NASA's public feed, with impact-energy trends and hazard alerts. [**View code**](https://github.com/abdullahmahfouz/Neo-Watch)
+
+- Daily ingest into PostgreSQL with impact-energy snapshots, so you see a trend, not one number
+- Real 3D Earth with a custom day/night shader; objects positioned from actual miss distance and velocity
+- Redis-cached endpoints, rate limiting, CORS lockdown, secret-gated ingest
+
+### HomeAgent: agentic real estate assistant
+
+[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://homeagent-deuf.onrender.com/" alt="HomeAgent live app" width="100%">](https://homeagent-deuf.onrender.com/)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+Ask for properties in plain English across 8 US states; the agent searches listings and runs mortgage math itself. [**View code**](https://github.com/abdullahmahfouz/homeagent)
+
+- Hand-rolled Gemini function-calling loop (blocking and SSE streaming)
+- Session rate limiter plus token-budget guard with persisted state
+
+### DSA Visualizer: interactive data-structures platform
+
+[<img src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://dsa-visualizer-ksnl.onrender.com/" alt="DSA Visualizer live app" width="100%">](https://dsa-visualizer-ksnl.onrender.com/)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+
+About 15 data structures, 30+ operations, live time/space benchmarking, and a time-travel step scrubber. [**View code**](https://github.com/abdullahmahfouz/dsa-visualizer)
+
+### Funniest Friend: group chat humor analyzer
+
+[<img src="assets/card-funniest.png" alt="Funniest Friend overview" width="100%">](https://github.com/abdullahmahfouz/Funniest-friend)
+
+Decodes iMessage's binary `chat.db` and ranks friends by comedic engagement. Privacy-first: private data never touches git. [**View code**](https://github.com/abdullahmahfouz/Funniest-friend)
+
 ---
- 
-*Currently job searching for SWE roles in Toronto — always open to connecting.*
- 
+
+## Systems programming
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+[<img src="assets/card-gc.png" alt="Mark-and-Sweep GC" width="100%">](https://github.com/abdullahmahfouz/Mark-Sweep)
+
+**[Mark-and-Sweep GC](https://github.com/abdullahmahfouz/Mark-Sweep)**
+Stack-based VM in C with a tagged-union object model. Reclaims 100% of unreachable memory, including circular references that defeat ref-counting.
+
+</td>
+<td width="50%" valign="top">
+
+[<img src="assets/card-shell.png" alt="Custom CLI Shell" width="100%">](https://github.com/abdullahmahfouz/Shell)
+
+**[Custom CLI Shell](https://github.com/abdullahmahfouz/Shell)**
+Unix-style shell in C# with pipes, redirection, 10+ builtins, a hand-rolled tokenizer, and tab completion.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Open source and client work
+
+- **[rysweet/amplihack](https://github.com/rysweet/amplihack)**: authored a merged security PR fixing a shell injection vulnerability
+- **Brendon Rodney**: portfolio site for the Paris 2024 Olympic gold medalist (4x100m relay). Zero-dependency static site, 100/100 Lighthouse, $0/month hosting.
+
+---
+
+## Tech stack
+
 <div align="center">
-  <a href="https://www.linkedin.com/in/abdullah-mahfouz-5188b1306/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 </div>
 
+**AI and agents:** Gemini API, Claude API, tool use / function calling
+**Spoken languages:** English (fluent), Arabic (native)
 
+---
+
+## GitHub stats
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=abdullahmahfouz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahmahfouz&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## Contact
+
+I recently graduated and I'm open to opportunities in Toronto. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/abdullah-mahfouz-5188b1306/) or [email](mailto:abdullahmahfouz@trentu.ca).
