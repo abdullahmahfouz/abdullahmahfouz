@@ -16,13 +16,11 @@
 
 ## About
 
-Computer Science graduate from Trent University, based in Peterborough and Toronto. I build agentic AI tools and end-to-end applications, from hand-rolled systems code to production web apps. **Currently open to opportunities in Toronto.**
+I just finished my CS degree at Trent University. I live between Peterborough and Toronto, and I'm looking for a full-time role in Toronto.
 
-| | |
-|---|---|
-| **Strong at** | Agentic AI (tool calling), full-stack apps, systems programming |
-| **Shipped** | 3 live deployed apps, a 100/100 Lighthouse client site |
-| **Daily drivers** | Python, JavaScript/React, Java/Spring Boot, C#, C |
+Lately I've been building apps where an LLM does more than chat. HomeAgent searches real listings and works out the mortgage itself, and my telematics project lets you ask questions about a vehicle's driving data. I also like going low-level: I've written a garbage collector in C and a Unix-style shell in C#.
+
+I mostly work in Python, JavaScript/React, Java with Spring Boot, C# and C.
 
 ---
 
