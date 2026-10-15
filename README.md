@@ -148,7 +148,7 @@ Unix-style shell in C# with pipes, redirection, 10+ builtins, a hand-rolled toke
 </div>
 
 **AI and agents:** Gemini API, Claude API, tool use / function calling
-**Spoken languages:** English (fluent), Arabic (native)
+
 
 ---
 
